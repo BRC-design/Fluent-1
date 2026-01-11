@@ -1,0 +1,26 @@
+body {
+  background:#f5f2ee;
+  display:flex;
+  justify-content:center;
+  font-family:sans-serif;
+}
+
+.app {
+  background:white;
+  margin-top:40px;
+  padding:20px;
+  border-radius:12px;
+  width:90%;
+  max-width:500px;
+}
+
+textarea {
+  width:100%;
+  height:100px;
+  margin-top:10px;
+}
+
+button {
+  padding:10px;
+  margin:5px;
+}
