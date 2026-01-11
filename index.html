@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluent – Cue Mode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Fluent</h1>
+    <p>You don’t have to guess what to say anymore.</p>
+
+    <textarea id="input" placeholder="What did they say to you?"></textarea>
+
+    <div class="tones">
+      <button onclick="setTone('playful')">Playful</button>
+      <button onclick="setTone('confident')">Confident</button>
+      <button onclick="setTone('warm')">Warm</button>
+      <button onclick="setTone('flirty')">Flirty</button>
+    </div>
+
+    <button onclick="generate()">Show me how to reply</button>
+
+    <div id="output"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
